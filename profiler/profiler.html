@@ -1,0 +1,32 @@
+<!---developed by Ayaulym Chinaliyeva--->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student searcher</title>
+	<link rel="stylesheet" type="text/css" href="baukeDesign.css">
+</head>
+<body>
+	<div>
+		<img src="school-logo.jpg">
+	</div>
+	<div>
+		<h2>Please, follow instructions provided<br> below to find student's profile:</h2>
+	</div>
+	<div style="text-align: left; margin: 100px; font-size: 25px; list-style-image: url('list-type.gif'); list-style-position: inside; text-shadow: all;">
+		<ul>
+			<li>Enter name into the first box;</li>
+			<li>Enter last name into the second box;</li>
+			<li>Enter <b>FULL</b> names written in English letters <b>CORRECTLY</b>;</li>
+			<li>Enter <b>FULL</b> names into the boxes in <b>CAPITAL LETTERS</b>;</li>
+			<li>Example: <i>Bauyrzhan</i>(first box) <i>Kenbayev</i>(second box).</li>
+		</ul>
+	</div>
+	<div style="text-align: left; margin: 100px;">
+	<form action="baukeBD.php" method="POST">
+		<input type="text" name="input" placeholder="Enter name"><br><br>
+		<input type="text" name="inputLname" placeholder="Enter last name"><br><br>
+		<input type="submit" name="Search" value="Search">
+	</form>
+</div>
+</body>
+</html>

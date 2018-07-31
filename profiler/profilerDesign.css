@@ -1,0 +1,54 @@
+/*developed by Ayaulym Chinaliyeva*/
+body{
+	background-color: #929292;
+	color: #fff;
+}
+div{
+	align-self: center;
+	text-align: center;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+form{
+	font-size: 20px;
+}
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("searchicon.png");
+    background-size: 20px 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-top: 10px;
+}
+
+input[type=text]:focus {
+    width: 400px;
+}
+input[type=submit]{
+	margin: 45px;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	font-color: #000;
+	font-style: italic;
+	margin-top: 25px;
+	background-color: #2ECCFA;
+	border-color: #000;
+	border-spacing: none;
+	border-radius: 12px;
+}
+input[type=submit]:focus{
+	background-color: #2E9AFE;
+	border-color: #000000;
+	font-color: #585858;
+}
